@@ -8,22 +8,22 @@ import Footer from "../Footer";
 class Game extends Component {
 
     state = {
-        chihuahuas: cards,
+        teams: cards,
         matches: 0,
         guesses: 0,
-        matchedChihuahua: 3
+        matchedteams: 3
     }
 
-    getChihuahua = (id) => {
-        if (id === this.state.matchedChihuahua) {
-            // if a chihuahua is a match 
+    getSports = (id) => {
+        if (id === this.state.matchedteams) {
+            // if a team is a match 
             // update the matches state by one 
             // but not the guesses state 
-            // if the are also a match pick a new random chihuahua
-            let randomId = Math.floor(Math.random() * this.state.chihuahuas.length) + 1;
+            // if the are also a match pick a new random team
+            let randomId = Math.floor(Math.random() * this.state.teams.length) + 1;
             this.setState({
                 matches: this.state.matches + 1,
-                matchedChihuahua: randomId
+                matchedteams: randomId
             });
         } else {
             // if they are not a match update the 
@@ -42,13 +42,13 @@ class Game extends Component {
                     guesses={this.state.guesses}
                 />
                 <div className="row">
-                    {this.state.chihuahuas.map(sports => (
+                    {this.state.teams.map(sports => (
                         <Card
                             key={sports.id}
                             id={sports.id}
                             name={sports.name}
                             image={sports.image}
-                            getChihuahua={this.getsports}
+                            getSports={this.getsports}
                         />
                     ))}
                 </div>
