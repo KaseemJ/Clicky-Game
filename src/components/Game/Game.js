@@ -11,11 +11,12 @@ class Game extends Component {
         teams: cards,
         matches: 0,
         guesses: 0,
-        matchedteams: 3
+        score: 3
     }
 
     getSports = (id) => {
-        if (id === this.state.matchedteams) {
+
+        if (id === this.state.score) {
             // if a team is a match 
             // update the matches state by one 
             // but not the guesses state 
@@ -48,7 +49,7 @@ class Game extends Component {
                             id={sports.id}
                             name={sports.name}
                             image={sports.image}
-                            getSports={this.getsports}
+                            getSports={this.getSports}
                         />
                     ))}
                 </div>
