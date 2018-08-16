@@ -1,7 +1,9 @@
 .chi-card {
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 345px;
     text-align: center;
-    color: white;
+    color: rgb(4, 4, 4);
+    border-radius: 10px solid black;
+    border-style: inset;
     background-size: cover;
 }

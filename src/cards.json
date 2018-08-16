@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/assets/images/celtics.jpg",
+        "image": "/assets/images/celtics.png",
         "name": "Boston Celtics"
     },
     {
@@ -21,12 +21,12 @@
     },
     {
         "id": 5,
-        "image": "/assets/images/panthers.jpg",
-        "name": "Carolina Panthers"
+        "image": "/assets/images/rams.png",
+        "name": "Los Angeles Rams"
     },
     {
         "id": 6,
-        "image": "/assets/images/raiders.jpg",
-        "name": "Oakland Raiders"
+        "image": "/assets/images/jags.jpeg",
+        "name": "Jacksonville Jags"
     }
 ]
