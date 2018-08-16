@@ -42,13 +42,13 @@ class Game extends Component {
                     guesses={this.state.guesses}
                 />
                 <div className="row">
-                    {this.state.chihuahuas.map(chihuahua => (
+                    {this.state.chihuahuas.map(sports => (
                         <Card
-                            key={chihuahua.id}
-                            id={chihuahua.id}
-                            name={chihuahua.name}
-                            image={chihuahua.image}
-                            getChihuahua={this.getChihuahua}
+                            key={sports.id}
+                            id={sports.id}
+                            name={sports.name}
+                            image={sports.image}
+                            getChihuahua={this.getsports}
                         />
                     ))}
                 </div>

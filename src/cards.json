@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "image": "/assets/images/brown-chihuahua.jpg",
-        "name": "Brown Chihuahua"
+        "image": "/assets/images/celtics.jpg",
+        "name": "Boston Celtics"
     },
     {
         "id": 2,
-        "image": "/assets/images/chubby-chihuahua.jpg",
-        "name": "Chubby Chihuahua"
+        "image": "/assets/images/cubs.png",
+        "name": "Chicago Cubs"
     },
     {
         "id": 3,
-        "image": "/assets/images/grumpy-chihuahua.jpg",
-        "name": "Grumpy Chihuahua"
+        "image": "/assets/images/lakers.png",
+        "name": "Los Angeles Lakers"
     },
     {
         "id": 4,
-        "image": "/assets/images/lady-chihuahua.jpg",
-        "name": "Lady Chihuahua"
+        "image": "/assets/images/padres.png",
+        "name": "San Diego Padres"
     },
     {
         "id": 5,
-        "image": "/assets/images/stern-chihuahua.jpg",
-        "name": "Stern Chihuahua"
+        "image": "/assets/images/panthers.jpg",
+        "name": "Carolina Panthers"
     },
     {
         "id": 6,
-        "image": "/assets/images/white-chihuahua.jpg",
-        "name": "White Chihuahua"
+        "image": "/assets/images/raiders.jpg",
+        "name": "Oakland Raiders"
     }
 ]
